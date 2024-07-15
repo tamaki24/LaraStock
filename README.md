@@ -10,6 +10,7 @@ php artisan config:clear
 
 npm i
 
+touch database/database.sqlite
 php artisan migrate:refresh --seed
 
 # サーバー立ち上げ
